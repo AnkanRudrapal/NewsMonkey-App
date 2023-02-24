@@ -1,0 +1,16 @@
+<Route path="/business"><News pageSize={6} country="in" category="business"/></Route> 
+<Route path="/entertainment"><News pageSize={6} country="in" category="entertainment"/></Route>
+<Route path="/general health"><News pageSize={6} country="in" category="general health"/></Route>
+<Route path="/science"><News pageSize={6} country="in" category="science"/></Route>
+<Route path="/sports"><News pageSize={6} country="in" category="sports"/></Route>
+<Route path="/technology"><News pageSize={6} country="in" category="technology"/></Route>
+
+
+
+https://newsapi.org/v2/top-headlines?country=in&apiKey=20259b5afc2545ba9b93e156c89d3d3a
+
+
+const capitalized = word.charAt(0).toUpperCase() + word.slice(1)
+
+
+(this.props.category).charAt(0).toUpperCase()+(this.props.category).slice(1)
