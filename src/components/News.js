@@ -75,17 +75,5 @@ const News = (props) => {
         </InfiniteScroll>
       </>
     );
-            
-    // News.propTypes = {
-    //   country: PropTypes.string,
-    //   pageSize: PropTypes.number,
-    //   category: PropTypes.string,
-    // }
-
-    // News.defaultProps = {
-    //   country: "in",
-    //   pageSize: 8,
-    //   category: "general",
-    // }
   }
 export default News;
